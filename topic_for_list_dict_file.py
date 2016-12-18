@@ -15,7 +15,7 @@ for key,value in b.items():
 	print(key, value)
 
 # for循环遍历文件
-fr = open('result_python.csv', 'r')
+fr = open('data/result_python.csv', 'r')
 
 for line in fr:
 	line = line.strip()
